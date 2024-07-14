@@ -1,0 +1,92 @@
+{
+    "seo": {
+        "title": "Services | Ekaya Studio",
+        "desc": " Ultimately, interior design aims to create environments that enhance the quality of life, evoke certain moods or emotions."
+    },
+    "titlebar": {
+        "title": "SERVICES"
+    },
+    "services":{
+        "items":[
+            {
+                "title": "Home",
+                "link":"/"
+            },
+            {
+                "title": "Services"
+                
+            }
+            
+        ]
+    },
+    "card":{
+        "items":[
+
+            {
+                "img":"/img/services/Design_Development.png",
+                "alt":"Design Development",
+                "title":"Design Development",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+              
+                "id":"design-development"
+            },
+            {
+                "img":"/img/services/img_1.png",
+                "alt":"Design Development",
+                "title":"Project Management",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                
+                "id":"project-management"
+            },
+            {
+                "img":"/img/services/img_2.png",
+                "alt":"Design Development",
+                "title":"Furniture Selection and Procurement",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                "id":"furniture-selection-and-procurement"
+            },
+            {
+                "img":"/img/services/img_3.png",
+                "alt":"Design Development",
+                "title":"3D Visualization",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                "id":"3d-visualization"
+            },
+            {
+                "img":"/img/services/img_4.png",
+                "alt":"Design Development",
+                "title":"Consultation",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                "id":"consultation"
+            },
+            {
+                "img":"/img/services/img_5.png",
+                "alt":"Design Development",
+                "title":"Space Planning",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                "id":"space-planning"
+            },
+            {
+                "img":"/img/services/img_6.png",
+                "alt":"Design Development",
+                "title":"Concept Development",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                "id":"concept-development"
+            },
+            {
+                "img":"/img/services/img_7.png",
+                "alt":"Design Development",
+                "title":"Lighting Design",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                "id":"lighting-design"
+            },
+            {
+                "img":"/img/services/img_8.png",
+                "alt":"Design Development",
+                "title":"Custom Design Elements",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet vestibulum volutpat. In sit amet gravida neque. Aliquam ullamcorper rutrum purus ut varius. Pellentesque imperdiet erat quis cursus lobortis. Etiam sempe...",
+                "id":"custom-design-elements"
+            }
+        ]
+    }
+}

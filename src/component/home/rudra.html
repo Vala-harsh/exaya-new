@@ -1,0 +1,78 @@
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-box" id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+const chatBox = document.getElementById('chat-box');
+const userInput = document.getElementById('user-input');
+
+function sendMessage() {
+    const message = userInput.value.trim();
+    if (message === '') return;
+
+    // Display user message
+    displayMessage('You: ' + message);
+
+    // Send message to GPT-3.5
+    fetch('/ask', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ message: message })
+    })
+    .then(response => response.json())
+    .then(data => {
+        const botMessage = 'ChatGPT: ' + data.message;
+        displayMessage(botMessage);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        displayMessage('Error occurred. Please try again.');
+    });
+
+    // Clear input field
+    userInput.value = '';
+}
+
+function displayMessage(message) {
+    const messageElement = document.createElement('div');
+    messageElement.textContent = message;
+    chatBox.appendChild(messageElement);
+}

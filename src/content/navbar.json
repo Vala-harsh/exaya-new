@@ -1,0 +1,34 @@
+{
+    "logo": {
+        "img": "/img/logos/logo.svg",
+        "link": "/",
+        "altimg": "Logo"
+    },
+    "nav": {
+        
+        "items": [
+            {
+                "text": "Home",
+                "link": "/"
+            },
+            {
+                "text": "About Us",
+                "link": "/about"
+            },
+            {
+                "text": "Services",
+                "link": "/services"
+            },
+            {
+                "text": "Projects",
+                "link": "/projects"
+            },
+            {
+                "text": "Contact",
+                "link": "/contact"
+            }
+           
+        ]
+    }
+   
+}

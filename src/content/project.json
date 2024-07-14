@@ -1,0 +1,144 @@
+{
+    "seo": {
+        "title": "Projects | Ekaya Studio",
+        "desc": " Ultimately, interior design aims to create environments that enhance the quality of life, evoke certain moods or emotions."
+    },
+    "titlebar": {
+        "title": "PROJECTS"
+    },
+    "project": {
+        "items": [
+            {
+                "title": "Home",
+                "link": "/"
+            },
+            {
+                "title": "Project"
+            }
+        ],
+        "option": {
+            "items": [
+                {
+                    "btnText": "All",
+                    "highlightedText": "all"
+                },
+                {
+                    "btnText": "Commercial",
+                    "highlightedText": "Commercial"
+                },
+                {
+                    "btnText": "Industrial",
+                    "highlightedText": "Industrial"
+                },
+                {
+                    "btnText": "Public",
+                    "highlightedText": "Public"
+                }
+            ]
+        },
+        "list": {
+            "all": [
+                {
+                    "title": "Tranquil Tropics",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Tranquil_Tropics.png",
+                    "alt": "Tranquil_Tropics.png",
+                    "link": "/project_list/tranquil_tropics",
+                    "category":"Commercial"
+                },
+                {
+                    "title": "Retro Remix",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Retro_Remix.png",
+                    "alt": "Retro Remix",
+                    "link": "/project_list/tranquil_tropics",
+                    "category":"Commercial"
+
+                },
+                {
+                    "title": "Art Deco Opulence",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Art_Deco_Opulence.png",
+                    "alt": "Art Deco Opulence",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Commercial"
+
+                },
+                {
+                    "title": "Futuristic Finesse",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Futuristic_Finesse.png",
+                    "alt": "Futuristic Finesse",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Commercial"
+                },
+                {
+                    "title": "Mid-Century Marvel",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Mid_Century_Marvel.png",
+                    "alt": "Mid-Century_Marvel",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Industrial"
+
+                },
+                {
+                    "title": "Traditional Treasures",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Tranquil_Tropics.png",
+                    "alt": "Tranquil_Tropics",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Industrial"
+                },
+                {
+                    "title": "Glamorous Getaway",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Glamorous_Getaway.png",
+                    "alt": "Glamorous Getaway",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Industrial"
+                },
+                {
+                    "title": "Serene Sanctuary",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Serene_Sanctuary.png",
+                    "alt": "Serene Sanctuary",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Industrial"
+                },
+                {
+                    "title": "Contemporary Comfort",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Contemporary_Comfort.png",
+                    "alt": "Contemporary Comfort",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Public"
+                },
+                {
+                    "title": "Nature-Inspired Oasis",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Nature_Inspired_Oasis.png",
+                    "alt": "Nature-Inspired Oasis",
+                    "link": "/project_list/tranquil_tropics",
+                    "category":"Public"
+                },
+                {
+                    "title": "Modern Minimalism",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Modern_Minimalism.png",
+                    "alt": "Modern Minimalism",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Public"
+                },
+                {
+                    "title": "Glamorous Getaway",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Glamorous_Getaway.png",
+                    "alt": "Glamorous Getaway",
+                    "link": "/project/tranquil_tropics",
+                    "category":"Public"
+                }   
+            ]
+           
+        }
+    }
+}

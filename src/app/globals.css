@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jost&display=swap');
+
+
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  /* Theme Colors Primary */
+  --theme-primary-50: 246, 247, 249;
+  --theme-primary-100: 237, 238, 241;
+  --theme-primary-200: 215, 219, 224;
+  --theme-primary-300: 180, 188, 197;
+  --theme-primary-400: 139, 151, 165;
+  --theme-primary-500: 109, 122, 138;
+  --theme-primary-600: 87, 99, 114;
+  --theme-primary-700: 71, 80, 93;
+  --theme-primary-800: 62, 69, 78;
+  --theme-primary-900: 54, 60, 68;
+  --theme-primary-950: 33, 36, 41;
+
+  /* Theme Colors Secondary */
+  --theme-secondary-50: 252, 248, 240;
+  --theme-secondary-100: 249, 239, 219;
+  --theme-secondary-200: 242, 221, 182;
+  --theme-secondary-300: 229, 186, 115;
+  --theme-secondary-400: 223, 164, 88;
+  --theme-secondary-500: 216, 139, 55;
+  --theme-secondary-600: 201, 115, 45;
+  --theme-secondary-700: 167, 90, 39;
+  --theme-secondary-800: 134, 73, 38;
+  --theme-secondary-900: 108, 61, 34;
+  --theme-secondary-950: 58, 30, 16;
+
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    /* Theme Colors Primary */
+    --theme-primary-50: 246, 247, 249;
+    --theme-primary-100: 237, 238, 241;
+    --theme-primary-200: 215, 219, 224;
+    --theme-primary-300: 180, 188, 197;
+    --theme-primary-400: 139, 151, 165;
+    --theme-primary-500: 109, 122, 138;
+    --theme-primary-600: 87, 99, 114;
+    --theme-primary-700: 71, 80, 93;
+    --theme-primary-800: 62, 69, 78;
+    --theme-primary-900: 54, 60, 68;
+    --theme-primary-950: 33, 36, 41;
+
+    /* Theme Colors Secondary */
+
+    --theme-secondary-50: 252, 248, 240;
+  --theme-secondary-100: 249, 239, 219;
+  --theme-secondary-200: 242, 221, 182;
+  --theme-secondary-300: 229, 186, 115;
+  --theme-secondary-400: 223, 164, 88;
+  --theme-secondary-500: 216, 139, 55;
+  --theme-secondary-600: 201, 115, 45;
+  --theme-secondary-700: 167, 90, 39;
+  --theme-secondary-800: 134, 73, 38;
+  --theme-secondary-900: 108, 61, 34;
+  --theme-secondary-950: 58, 30, 16;
+  }
+}
+
+body {
+  color: rgb(var(--theme-primary-200)); ;
+  background:black;
+
+}
+
+.primary-font {
+  font-family: 'Jost', sans-serif;
+
+}
+
+.secondary-font {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+}
+
+.counter {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 145px;
+  line-height: 150px;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 100px;
+    line-height: 200px;
+    -webkit-text-stroke-width: 1px;
+  }
+
+}
+
+.swiper-pagination-bullet {
+  background-color: gray !important; 
+ 
+}
+
+
+.swiper-pagination-bullet-active {
+  background-color: white !important; 
+  
+
+}
+.swiper{
+  height: 390px;
+}
+
+
+.fade-out {
+  transition: opacity 0.5s ease-in-out; 
+  position: sticky;
+  top: 0;
+}
+
+
+.highlight {
+  color: rgb(var(--theme-secondary-300));
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: rgb(var(--theme-primary-900)) !important;
+  color: white !important;
+  border-radius: 50% !important;
+  border: 2px solid white !important;
+
+}
+
+.contactus-bgimg {
+  background-image: url("/img/contact_us/Contact_Us.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+
+}
+
+@media screen and (max-width: 768px) {
+  .contactus-bgimg {
+    background-position: center;
+  }
+
+}
+
+@media (max-width: 668px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+.swiper-pagination {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+
+}
+
+
+
+.swiper-slide>.w-full {
+  position: relative;
+}
+
+
+.swiper-slide>.w-full>p {
+  margin-bottom: 40px;
+}
+.swiper-slide>.w-full>img {
+
+  margin-bottom: 10px;
+}
+
+
+.image-hover-hovered {
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+.group:hover .image-hover {
+  display: none;
+
+}
+
+.group:hover .image-hover-hovered {
+  display: block;
+}
+
+/* For larger screens */
+.goal-bgimg {
+  background-image: url("/img/about/goal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.swiper_1{
+  height: 60px; 
+}
+
+
+.text-overlay {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+ 
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform: translate(0%, -100%);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.image-container:hover .text-overlay {
+  opacity: 5;
+}
+
+
+
+
+.image-container:hover .text-overlay {
+  display: block;
+
+}
+
+.images {
+  position: relative;
+  display: inline-block;
+}
+
+.txt {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform: translate(0%, -100%);
+  padding: 10px;
+
+
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+/* ServicesCard.css */
+
+  .scroll-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    height:  55vh;
+    @media only screen and (max-width: 800px) {
+    height:  80vh;
+    
+    }
+  }
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+.card-container {
+  scroll-snap-align: start;
+  width: 100%;
+}
+
+.card-content {
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+
+

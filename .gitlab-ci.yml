@@ -1,0 +1,23 @@
+image: node:18.18.2-alpine3.18
+
+cache:
+  key:
+    files:
+      - package-lock.json
+  paths:
+    - .npm/
+
+cloudflare-pages:
+  variables:
+    CLOUDFLARE_API_TOKEN: $CLOUDFLARE_API_TOKEN
+    CLOUDFLARE_ACCOUNT_ID: $CLOUDFLARE_ACCOUNT_ID
+    CLOUDFLARE_PAGES_PROJECT_NAME: $CLOUDFLARE_PAGES_PROJECT_NAME
+  stage: deploy
+  before_script:
+    - ls -al
+    - npm ci --cache .npm --prefer-offline
+  script:
+    - npm run build
+    - npx wrangler pages deploy ./out --project-name=$CLOUDFLARE_PAGES_PROJECT_NAME --branch=$CI_COMMIT_BRANCH
+#  only:
+#    - main

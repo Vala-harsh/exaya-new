@@ -1,0 +1,143 @@
+{
+    "body": [
+        {
+            "component": "breadcrumb",
+            "props": {
+                "data": {
+                    "items": [
+                        {
+                            "title": "Home",
+                            "link": "/"
+                        },
+                        {
+                            "title": "Project",
+                            "link": "/projects"
+                        },
+                        {
+                            "title": "Contemporary Comfort"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "component": "titlebar",
+            "props": {
+            "data": {
+                "title": "CONTEMPORARY COMFORT"
+            }
+        }
+        },
+        {
+            "component": "herosection",
+            "props": {
+                "data": {
+                    "img": "/img/project/Tranquil_Tropics/Tranquil.png",
+                    "alt": "Tranquil",
+                    "title": "Tranquil Chic Living"
+                }
+            }
+        },
+        {
+            "component": "aboutproject",
+            "props": {
+                "data": {
+                    "desc": "Experience a blend of colours, textures, and style in the spacious 5500 Sq ft in Ahmedabad. This residential gem showcases skillfully crafted furniture seamlessly merging comfort with chic elegance, creating a muted luxury. With simplicity and elegance at its core, every room and living area offers a cosy retreat.  ",
+                    "items": [
+                        {
+                            "title": "Category",
+                            "desc": "Residential"
+                        },
+                        {
+                            "title": "Location",
+                            "desc": "Ahmedabad"
+                        },
+                        {
+                            "title": "Area",
+                            "desc": "5500 Sq ft"
+                        }
+                        
+                    ]
+                }
+            }
+        },
+        {
+            "component": "projectimage",
+            "props": {
+                "data": {
+                    "img_1": "/img/project/Tranquil_Tropics/img_1.png",
+                    "alt_1": "img_1",
+                    "img_2": "/img/project/Tranquil_Tropics/img_2.png",
+                    "alt_2": "img_2",
+                    "img_3": "/img/project/Tranquil_Tropics/img_3.png",
+                    "alt_3": "img_3",
+                    "img_4": "/img/project/Tranquil_Tropics/img_4.png",
+                    "alt_4": "img_4",
+                    "img_5": "/img/project/Tranquil_Tropics/img_5.png",
+                    "alt_5": "img_5",
+                    "img_6": "/img/project/Tranquil_Tropics/img_6.png",
+                    "alt_6": "img_6"
+                }
+            }
+        },
+        {
+            "component": "otherproject",
+            "props": {
+                "data": {
+                    "title": " Other <span class='highlight'>  Projects  </span>",
+                    "btntext": "SEE  ALL  PROJECTS",
+                    "btnlink": "/projects",
+                    "items": [
+                        {
+                            "title": "Glamorous Getaway",
+                            "desc": "Landscaping",
+                            "img": "/img/projects/Glamorous_Getaway.png",
+                            "alt": "Glamorous Getaway",
+                            "link": "/project/tranquil_tropics"
+                        },
+                        {
+                            "title": "Modern Minimalism",
+                            "desc": "Landscaping",
+                            "img": "/img/projects/Modern_Minimalism.png",
+                            "alt": "Modern Minimalism",
+                            "link": "/project/tranquil_tropics"
+                        },
+                        {
+                            "title": "Glamorous Getaway",
+                            "desc": "Landscaping",
+                            "img": "/img/projects/Glamorous_Getaway.png",
+                            "alt": "Glamorous Getaway",
+                            "link": "/project/tranquil_tropics"
+                        },
+                        {
+                            "title": "Serene Sanctuary",
+                            "desc": "Landscaping",
+                            "img": "/img/projects/Serene_Sanctuary.png",
+                            "alt": "Serene Sanctuary",
+                            "link": "/project/tranquil_tropics"
+                        }
+                        
+                    ]
+                }
+            }
+        },
+        {
+            "component": "contact",
+            "props": {
+                "data": {
+                    "contact_us": {
+                        "title": " <span class='highlight'> Let’s Discuss Next Projects  </span>",
+                        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor sem eget blandit varius. Nam condimentum, erat ut dictum ultrices, diam sem pretium nulla, non tincidunt lacus metus aliquam nibh. Duis hendrerit est id magna imperdiet accumsan. ",
+                        "address": {
+                            "title": "  <span class='highlight'> Address  </span>",
+                            "desc": "A - 501 Sivkunj empayer,  Nr. Somnath chok, Raj pipla Road Mumbai - 3800009"
+                        }
+                    },
+                    "contact_title": {
+                        "title": " Contact <span class='highlight'> Us </span> "
+                    }
+                }
+            }
+        }
+    ]
+}

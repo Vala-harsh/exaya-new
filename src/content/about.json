@@ -1,0 +1,86 @@
+{
+    "seo": {
+        "title": "About | Ekaya Studio",
+        "desc": "Ultimately, interior design aims to create environments that enhance the quality of life, evoke certain moods or emotions."
+    },
+    "titlebar": {
+        "title": "ABOUT US"
+    },
+    "featurs": {
+        "img": "/img/home/featurs.png",
+        "altimg": "featurs image",
+        "desc": "Established in 2020, Ekaya Studio excels in interior design, completing 40+ projects nationwide. Our team seamless blends aesthetics and functionality from commercial to residential spaces for transformative design experiences.",
+        "title": "We turn ideas <span class='highlight'> into reality.</span> ",
+        "items": [
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Innovative design concepts",
+                "text": "Innovative design concepts"
+            },
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Proficiency in spatial planning and utilization",
+                "text": "Proficiency in spatial planning and utilization "
+            },
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Efficient project planning and execution",
+                "text": "Efficient project planning and execution"
+            },
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Transparent and effective budget planning ",
+                "text": "Transparent and effective budget planning "
+            }
+        ]
+    },
+    "about_us": {
+        "items": [
+            {
+                "title": "Home",
+                "link": "/"
+            },
+            {
+                "title": "About Us"
+            }
+        ]
+    },
+    "goal": {
+        "title": "Lorem ipsum dolor sit amet, consectetur",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl arcu, placerat ac risus a, vehicula semper urna. Praesent et condimentum ipsum, id pellentesque enim. Curabitur sed sem vulputate, porta odio quis, vehicula lorem.",
+        "items": [
+            {
+                "title": "Mission",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl arcu, placerat ac risus a, vehicula semper urna. Praesent et condimentum ipsum, id pellentesque enim. Curabitur sed sem vulputate, porta ",
+                "img": "/img/about/Mission.svg",
+                "alt": "Mission"
+            },
+            {
+                "title": "Vision",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl arcu, placerat ac risus a, vehicula semper urna. Praesent et condimentum ipsum, id pellentesque enim. Curabitur sed sem vulputate, porta ",
+                "img": "/img/about/Vision.svg",
+                "alt": "Vision"
+            }
+        ]
+    },
+    "our_team": {
+        
+        "items": [
+            {
+                "title": " Our <span class='highlight'>  Team  </span>",
+                "title2": "Alison Taylor",
+                "desc": "Team Manager",
+                "img": "/img/about/t_1.png",
+                "alt": "t_1"
+            },
+            
+            {
+                "title": "",
+                "title2": "Roger Craig",
+                "desc": "CEO",
+                "img": "/img/about/t_2.png",
+                "alt": "t_2"
+            }
+        ]
+    }
+}

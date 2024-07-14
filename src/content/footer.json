@@ -1,0 +1,94 @@
+{
+    "logo": {
+        "img": "/img/logos/logo.svg",
+        "link": "/",
+        "altimg": "logo",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl arcu, placerat ac risus a,"
+    },
+    "Services": {
+        "title": "Project",
+        "items": [
+            {
+                "text": "Tranquil Tropics",
+                "link": "#"
+            },
+            {
+                "text": "Retro Remix",
+                "link": "#"
+            },
+            {
+                "text": "Art Deco Opulence ",
+                "link": "#"
+            },
+            {
+                "text": "Glamorous Getaway",
+                "link": "#"
+            },
+            {
+                "text": "Serene Sanctuary",
+                "link": "#"
+            }
+        ]
+    },
+    "company": {
+        "title": "Company",
+        "items": [
+            {
+                "text": "About Us",
+                "link": "/about"
+            },
+            {
+                "text": "Project",
+                "link": "/projects"
+            },
+            {
+                "text": "Services",
+                "link": "/services"
+            },
+            {
+                "text": "Contact Us",
+                "link": "/contact"
+            }
+        ]
+    },
+    "contectus": {
+        "title": "Contact Us",
+        "title2": "Follow Us",
+        "phone": {
+            "text": "Phone",
+            "tel": "123456789",
+            "telLink": "tel:123456789"
+        },
+        "emailObj": {
+            "text": "Email",
+            "email": "abc@gmail.com",
+            "emailLink": "mailto:abc@gmail.com"
+        },
+        "icons": [
+           
+           
+            {
+                "link": "#",
+                "img": "/img/icons/contactus/facebook.svg",
+                "altimg": "Facebook logo"
+            },
+            {
+                "link": "#",
+                "img": "/img/icons/contactus/twitter.svg",
+                "altimg": "Twitter logo"
+            },
+            {
+                "link": "#",
+                "img": "/img/icons/contactus/instagram.svg",
+                "altimg": "Instagram logo"
+            },
+            {
+                "link": "#",
+                "img": "/img/icons/contactus/linkedin.svg",
+                "altimg": "Linkdin logo"
+            }
+        ]
+
+        
+    }
+}

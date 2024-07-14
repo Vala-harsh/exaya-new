@@ -1,0 +1,320 @@
+{
+    "seo": {
+        "title": "Ekaya Studio | Interior Design",
+        "desc": "Ultimately, interior design aims to create environments that enhance the quality of life, evoke certain moods or emotions."
+    },
+    "herosection": [
+        {
+            "title": "Glamorous <span class='highlight'>Getaway</span>",
+            "desc": "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue",
+            "img": "/img/projects/Glamorous_Getaway.png",
+            "altimg": "Glamorous Getaway"
+        } ,
+        {
+            "img": "/img/projects/Tranquil_Tropics.png",
+            "altimg": "herosection image",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. ",
+            "title": "<span class='highlight'>Creating Harmony</span> Through Design "
+        },
+        {
+            "img": "/img/projects/Futuristic_Finesse.png",
+            "altimg": "herosection image",
+            "desc": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+            "title": "<span class='highlight'>Creating Harmony</span> Through Design "
+        },
+        {
+            "img": "/img/projects/Art_Deco_Opulence.png",
+            "altimg": "herosection image",
+            "desc": "Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. ",
+            "title": "<span class='highlight'>Creating Harmony</span> Through Design "
+        }
+    ],
+    "featurs": {
+        "img": "/img/home/featurs.png",
+        "altimg": "featurs image",
+        "desc": "Established in 2020, Ekaya Studio excels in interior design, completing 40+ projects nationwide. Our team seamless blends aesthetics and functionality from commercial to residential spaces for transformative design experiences.",
+        "title": "We turn ideas <span class='highlight'> into reality.</span> ",
+        "contectus": {
+            "btntext": "READ MORE",
+            "btnlink": "/about"
+        },
+        "items": [
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Innovative design concepts",
+                "text": "Innovative design concepts"
+            },
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Proficiency in spatial planning and utilization",
+                "text": "Proficiency in spatial planning and utilization "
+            },
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Efficient project planning and execution",
+                "text": "Efficient project planning and execution"
+            },
+            {
+                "img": "/img/home/featuers-icon.svg",
+                "altimg": "Transparent and effective budget planning ",
+                "text": "Transparent and effective budget planning "
+            }
+        ]
+    },
+    "ourservices":{
+        "title":"Our <span class='highlight'> Services </span>",
+       
+        "btntext" : "ALL  SERVICES",
+        "btnlink" : "/services",
+        "items":[
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Design Development",
+                "link":"/services#design-development"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"3D Visualizetion",
+                "link":"/services#3d-visualization"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Concept Development",
+                "link":"/services#concept-development"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Project Management",
+                "link":"/services#project-management"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Consultation",
+                "link":"/services#consultation"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Lighting Design",
+                "link":"/services#lighting-design"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Furniture Selection and Procurement",
+                "link":"/services#furniture-selection-and-procurement"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Space Planning",
+                "link":"/services#space-planning"
+            },
+            {
+                "img":"/img/home/Plus.svg",
+                "alt":"Plus",
+                "title":"Custom Design Elements",
+                "link":"/services#custom-design-elements" 
+            }
+        ],
+        "counters": {
+            "items": [
+                
+                {
+                    "title": "40",
+                    "unit": "+",
+                    "desc": "Projects Completed"
+                },
+                {
+                    "title": "100",
+                    "unit": "k",
+                    "desc": "Square Feet"
+                }
+            ]
+        }
+    },
+   
+
+    "contact_us": {
+        "title": " <span class='highlight'> Let’s Discuss Next Projects  </span>",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor sem eget blandit varius. Nam condimentum, erat ut dictum ultrices, diam sem pretium nulla, non tincidunt lacus metus aliquam nibh. Duis hendrerit est id magna imperdiet accumsan. ",
+        "address": {
+            "title": "  <span class='highlight'> Address  </span>",
+            "desc": "A - 501 Sivkunj empayer,  Nr. Somnath chok, Raj pipla Road Mumbai - 3800009"
+        },
+        "items": [
+            {
+                "title": "Home",
+                "link": "/"
+            },
+            {
+                "title": "Contact Us"
+            }
+        ]
+    },
+    "contact_title": {
+        "title": " Contact <span class='highlight'> Us </span> "
+    },
+    "our_client":{
+        "title":"Brands We   <span class='highlight'> Worked With </span>",
+        "items":[
+            {
+                "img":"",
+                "alt":"",
+                "title":"logo"
+            },
+            {
+                "img":"",
+                "alt":"",
+                "title":"logo"
+            },
+            {
+                "img":"",
+                "alt":"",
+                "title":"logo"
+            },
+            {
+                "img":"",
+                "alt":"",
+                "title":"logo"
+            },
+            {
+                "img":"",
+                "alt":"",
+                "title":"logo"
+            },
+            {
+                "img":"",
+                "alt":"",
+                "title":"logo"
+            },
+            {
+                "img":"",
+                "alt":"",
+                "title":"logo"
+            }
+
+        ]
+    },
+
+    "card": {
+      
+        "list_1": {
+            "img": "/img/home/left_arrow.svg",
+            "alt": "left_arrow",
+            "title": "Our  <span class='highlight'>  Project  </span>",
+            "desc": "Architects is a full-service design firm providing architecture, master planning, urban design, interior architecture,<br/> space planning and programming. ",
+            
+            "items": [
+                {
+                    "title": "Tranquil Tropics",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Tranquil_Tropics.png",
+                    "alt": "Tranquil_Tropics.png",
+                    "link": "/project_list/tranquil_tropics"
+                },
+                {
+                    "title": "Retro Remix",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Retro_Remix.png",
+                    "alt": "Retro Remix",
+                    "link": "/project_list/tranquil_tropics"
+                },
+                {
+                    "title": "Art Deco Opulence",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Art_Deco_Opulence.png",
+                    "alt": "Art Deco Opulence",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Futuristic Finesse",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Futuristic_Finesse.png",
+                    "alt": "Futuristic Finesse",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Mid-Century Marvel",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Mid_Century_Marvel.png",
+                    "alt": "Mid-Century_Marvel",
+                    "link": "/project/tranquil_tropics"
+                }
+                
+            ]
+        },
+        "list_2": {
+            "img": "/img/home/right_arrow.svg",
+            "alt": "right_arrow",
+            "contectus": {
+                "btntext": "VIEW MORE",
+                "btnlink": "/projects"
+            },
+            "items": [
+                {
+                    "title": "Mid-Century Marvel",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Mid_Century_Marvel.png",
+                    "alt": "Mid-Century_Marvel",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Traditional Treasures",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Tranquil_Tropics.png",
+                    "alt": "Tranquil_Tropics",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Glamorous Getaway",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Glamorous_Getaway.png",
+                    "alt": "Glamorous Getaway",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Serene Sanctuary",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Serene_Sanctuary.png",
+                    "alt": "Serene Sanctuary",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Contemporary Comfort",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Contemporary_Comfort.png",
+                    "alt": "Contemporary Comfort",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Nature-Inspired Oasis",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Nature_Inspired_Oasis.png",
+                    "alt": "Nature-Inspired Oasis",
+                    "link": "/project_list/tranquil_tropics"
+                },
+                {
+                    "title": "Modern Minimalism",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Modern_Minimalism.png",
+                    "alt": "Modern Minimalism",
+                    "link": "/project/tranquil_tropics"
+                },
+                {
+                    "title": "Glamorous Getaway",
+                    "desc": "Landscaping",
+                    "img": "/img/projects/Glamorous_Getaway.png",
+                    "alt": "Glamorous Getaway",
+                    "link": "/project/tranquil_tropics"
+                } 
+            ]
+        }
+       
+    }
+}
